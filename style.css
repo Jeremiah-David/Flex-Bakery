@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(assets/bread.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 50vh;
+  /*   Wrote new code here👇👇👇  */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /*   Wrote new code here ☝️☝️☝️*/
+}
+.hero__title,
+.hero__blurb {
+  color: white;
+}
+.hero__title {
+  font-family: "Leckerli One", cursive;
+  font-size: 60px;
+}
+.hero__subtitle {
+  font-weight: 600;
+  font-size: 25px;
+  color: lightpink;
+  /*   Wrote new code here 👇👇👇  */
+  margin: 0px;
+  /*  ☝️☝️☝️ Wrote new code here */
+}
+.about__title {
+  font-size: 40px;
+}
+/*  Wrote new code here👇👇👇  */
+h1 {
+  margin: 0;
+}
+
+.hero__blurb {
+  padding: 0px 15%;
+}
+
+.about__title {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+
+.about__row {
+  display: flex;
+  flex-direction: row;
+}
+
+.about__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+}
